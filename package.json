@@ -9,7 +9,7 @@
     "start": "node build/app.js"
   },
   "author": "diegobarrera",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@types/restify": "^7.2.9",
     "restify": "^8.3.0",
