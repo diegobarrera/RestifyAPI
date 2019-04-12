@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "start": "node build/app.js"
   },
-  "author": "",
+  "author": "diegobarrera",
   "license": "ISC",
   "dependencies": {
+    "@types/restify": "^7.2.9",
     "restify": "^8.3.0",
+    "tslint": "^5.15.0",
     "typescript": "^3.4.3"
   }
 }
